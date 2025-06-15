@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fast-json-to-csv"
+version = "0.1.0"
+authors = [
+    { name = "Maria Snow", email = "mariyasnow" },
+]
+description = "A fast and efficient JSON to CSV converter"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/mariyasnow/fast-json-to-csv"
+"Bug Tracker" = "https://github.com/mariyasnow/fast-json-to-csv/issues" 
